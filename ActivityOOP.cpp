@@ -27,8 +27,8 @@ int main() {
     Barang nonEletronik;
     nonEletronik.nama = "Buku";
     nonEletronik.jumlah = 5;
-    nonEletronik.kategori = "Buku";
+    nonEletronik.kategori = "nonElektronik";
     nonEletronik.tanggalproduksi = "2024-01-01";
     nonEletronik.printData();
-    return 0;
+    
 }
