@@ -22,5 +22,12 @@ int main() {
     eletronik.kategori = "Elektronik";
     eletronik.tanggalproduksi = "2023-01-01";
     eletronik.printData();
+
+    Barang nonEletronik;
+    nonEletronik.nama = "Buku";
+    nonEletronik.jumlah = 5;
+    nonEletronik.kategori = "Buku";
+    nonEletronik.tanggalproduksi = "2024-01-01";
+    nonEletronik.printData();
     return 0;
 }
